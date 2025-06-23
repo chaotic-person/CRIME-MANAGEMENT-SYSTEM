@@ -137,3 +137,32 @@ CREATE TABLE PrisonDetails (
     FOREIGN KEY (accused_id) REFERENCES Accused(accused_id)
 );
 
+```
+</details>
+
+## ▶ How to Run the Project
+
+1. **Clone the repo or download the ZIP**
+
+2. **Extract** and place the project folder inside the `htdocs` directory of **XAMPP**
+
+3. **Start Apache and MySQL** from the XAMPP Control Panel
+
+4. **Database Setup and Configuration:**
+   - Open **phpMyAdmin**
+   - Create a new database (e.g., `crime_db`)
+   - Import or paste the provided SQL code into it
+   - Open your PHP config file (`db.php` or `config.php`) and update:
+     ```php
+     $dbname = "crime_db"; // or your custom DB name
+     ```
+
+5. **In your browser, go to:**
+           http://localhost/[your-project-folder]
+
+
+---
+
+
+> 💡 *Thanks for checking out the Crime Management System! Hope you like it.* 🚔
+
